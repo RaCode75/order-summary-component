@@ -159,8 +159,7 @@ main #cancel:hover {
     background-image: url(../images/pattern-background-desktop.svg);
   }
   main {
-    width: 60%;
-    height: 60vh;
+    width: 40%;
   }
   main h1 {
     margin: 3rem 0 1.5rem 0;
@@ -173,11 +172,11 @@ main #cancel:hover {
     width: 75%;
   }
   main #proceed {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     width: 75%;
   }
   main #cancel {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 }
 
