@@ -33,7 +33,7 @@ button, a {
 }
 
 main {
-  height: 83vh;
+  height: 85vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +48,7 @@ main {
           align-items: center;
   width: 90%;
   background-color: white;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   overflow: hidden;
 }
 
@@ -63,15 +63,18 @@ main h1 {
 }
 
 main #info {
-  width: 90%;
+  width: 80%;
   text-align: center;
+  line-height: 1.5rem;
+  font-weight: 500;
   color: #7280a7;
+  margin-bottom: 1rem;
 }
 
 main #plan {
   background-color: #f5f7ff;
   width: 90%;
-  max-height: 5rem;
+  height: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,8 +121,8 @@ main #plan a:hover {
 
 main #proceed {
   width: 90%;
-  height: 3.7rem;
-  margin: 1.5rem auto;
+  height: 3.5rem;
+  margin: 1.5rem 0 1.2rem 0;
   border-radius: 0.8rem;
   font-size: 1rem;
   font-weight: 700;
@@ -149,5 +152,55 @@ main #cancel:hover {
 .attribution {
   position: absolute;
   margin-top: 95vh;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+  }
+  main {
+    width: 60%;
+    height: 60vh;
+  }
+  main h1 {
+    margin: 3rem 0 1.5rem 0;
+  }
+  main #info {
+    width: 70%;
+  }
+  main #plan {
+    height: 7vh;
+    width: 75%;
+  }
+  main #proceed {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  main #cancel {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+  }
+  main {
+    width: 30%;
+    height: 76vh;
+  }
+  main h1 {
+    margin: 3rem 0 1.5rem 0;
+  }
+  main #plan {
+    height: 11vh;
+    width: 80%;
+  }
+  main #proceed {
+    width: 80%;
+  }
+  main #cancel {
+    margin-top: 1rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
