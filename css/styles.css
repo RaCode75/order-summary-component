@@ -1,1 +1,153 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #e0e8ff;
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+}
+
+button, a {
+  cursor: pointer;
+}
+
+main {
+  height: 83vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  background-color: white;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+main #hero {
+  width: 100%;
+}
+
+main h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+
+main #info {
+  width: 90%;
+  text-align: center;
+  color: #7280a7;
+}
+
+main #plan {
+  background-color: #f5f7ff;
+  width: 90%;
+  max-height: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 0.8rem;
+}
+
+main #plan #plan_info {
+  margin: 1rem 2rem 1rem 1rem;
+}
+
+main #plan #plan_info h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1f2f56;
+}
+
+main #plan #plan_info span {
+  color: #7280a7;
+  font-size: 0.9rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+}
+
+main #plan a {
+  font-weight: 500;
+  color: #3829e0;
+}
+
+main #plan a:hover {
+  opacity: 0.7;
+}
+
+main #proceed {
+  width: 90%;
+  height: 3.7rem;
+  margin: 1.5rem auto;
+  border-radius: 0.8rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background-color: #3829e0;
+  -webkit-box-shadow: 0 1.8rem 1rem #e0e8ff;
+          box-shadow: 0 1.8rem 1rem #e0e8ff;
+  border: none;
+}
+
+main #proceed:hover {
+  opacity: 0.7;
+}
+
+main #cancel {
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #7280a7;
+  padding-bottom: 1rem;
+}
+
+main #cancel:hover {
+  color: black;
+}
+
+.attribution {
+  position: absolute;
+  margin-top: 95vh;
+}
+/*# sourceMappingURL=styles.css.map */
