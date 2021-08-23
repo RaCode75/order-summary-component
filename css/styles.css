@@ -33,7 +33,6 @@ button, a {
 }
 
 main {
-  height: 85vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,21 +153,26 @@ main #cancel:hover {
   margin-top: 95vh;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 376px) {
   body {
     background-image: url(../images/pattern-background-desktop.svg);
+    background-size: contain;
+  }
+}
+
+@media screen and (min-width: 756px) {
+  body {
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: 100vw 40vh;
   }
   main {
-    width: 40%;
-  }
-  main h1 {
-    margin: 3rem 0 1.5rem 0;
+    width: 45%;
   }
   main #info {
     width: 70%;
   }
   main #plan {
-    height: 7vh;
+    height: 6rem;
     width: 75%;
   }
   main #proceed {
@@ -186,20 +190,19 @@ main #cancel:hover {
   }
   main {
     width: 30%;
-    height: 76vh;
   }
   main h1 {
     margin: 3rem 0 1.5rem 0;
   }
   main #plan {
-    height: 11vh;
+    height: 6rem;
     width: 80%;
   }
   main #proceed {
     width: 80%;
   }
   main #cancel {
-    margin-top: 1rem;
+    margin: 1.5rem auto;
   }
 }
 /*# sourceMappingURL=styles.css.map */

@@ -31,7 +31,6 @@ body{
 button, a{cursor:pointer;}
 
     main{
-        height: 85vh;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -125,20 +124,25 @@ button, a{cursor:pointer;}
         margin-top: 95vh;
     }
     
-    @media screen and (min-width: 800px){
+    @media screen and (min-width: 376px){
         body{
             background-image: url(../images/pattern-background-desktop.svg);
+            background-size:contain;
+        }
+    }
+    @media screen and (min-width: 756px){
+        body{
+            background-image: url(../images/pattern-background-desktop.svg);
+            background-size:100vw 40vh;
         }
         main {
-            width: 40%;
-            h1{
-                margin: 3rem 0 1.5rem 0;
-            }
+            width: 45%;
+
             #info {
                 width: 70%;
             }
             #plan{
-                height: 7vh;
+                height: 6rem;
                 width: 75%;
             }
             #proceed{
@@ -157,21 +161,20 @@ button, a{cursor:pointer;}
         }
         main {
             width: 30%;
-            height: 76vh;
 
             h1{
                 margin: 3rem 0 1.5rem 0;
             }
 
             #plan{
-                height: 11vh;
+                height: 6rem;
                 width: 80%;
             }
             #proceed{
                 width: 80%;
             }
             #cancel{
-                margin-top: 1rem;
+                margin: 1.5rem auto;;
             }
         }
     }
